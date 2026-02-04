@@ -1,21 +1,151 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Nom du Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- 
-        INSTRUCTIONS :
-        1. Remplacez "Nom du Restaurant" par le nom de votre choix
-        2. Créez une structure sémantique (section, article, header, etc.)
-        3. Utilisez des listes (ul/li) pour les items de menu
-        4. Ajoutez des classes cohérentes (BEM recommandé)
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE PIZZA BOY</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="menu">
+      <div class="titre_menu">
+        <h1>THE PIZZA BOY MENU</h1>
+      </div>
 
-        Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
-    -->
-    
-</body>
+      <div class="menu-category">
+        <h2 class="menu-category_title">ENTRÉES</h2>
+
+        <div class="menu-category_list">
+          <div class="menu-item">
+            <span class="menu-item_title">Bread Sticks</span>
+            <span class="menu-item_price">5.00$</span>
+            <div class="menu-item_ingredients">
+              Batton de pain, servis avec sauce marinara
+            </div>
+          </div>
+          <br />
+          <div class="menu-item">
+            <span class="menu-item_title"
+              >Salade César <span class="badge_vege">[VÉGÉ]</span></span
+            >
+            <span class="menu-item_price">12.00$</span>
+            <div class="menu-item_ingredients">
+              Laitue romaine, croûtons, parmesan, sauce césar
+            </div>
+          </div>
+          <br />
+          <div class="menu-item">
+            <span class="menu-item_title"
+              >Pain à l'Ail
+              <span class="badge_populaire">[POPULAIRE]</span></span
+            >
+            <span class="menu-item_price">8.50$</span>
+            <div class="menu-item_ingredients">
+              Baguette, beurre à l'ail, persil frais
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="menu-category">
+        <h2 class="menu-category_title">PLATS PRINCIPAUX</h2>
+
+        <div class="menu-category_list">
+          <div class="menu-item">
+            <span class="menu-item_title"
+              >Pizza Fromage <span class="badge_vege">[VÉGÉ]</span></span
+            >
+            <span class="menu-item_price">14.00$</span>
+            <div class="menu-item_ingredients">
+              Mélange de mozzarella, cheddar, parmesan et sauce tomate.
+            </div>
+          </div>
+          <br />
+          <div class="menu-item">
+            <span class="menu-item_title"
+              >Pizza Pepperoni
+              <span class="badge_populaire">[POPULAIRE]</span></span
+            >
+            <span class="menu-item_price">16.00$</span>
+            <div class="menu-item_ingredients">
+              Pepperoni boeuf, mozzarella et sauce tomate.
+            </div>
+          </div>
+          <br />
+          <div class="menu-item">
+            <span class="menu-item_title">Pizza Hawaïenne</span>
+            <span class="menu-item_price">17.00$</span>
+            <div class="menu-item_ingredients">
+              Jambon fumé, ananas, sauce tomate et mozzarella.
+            </div>
+          </div>
+          <br />
+
+          <div class="menu-item">
+            <span class="menu-item_title"
+              >Pizza Végétarienne <span class="badge_vege">[VÉGÉ]</span></span
+            >
+            <span class="menu-item_price">16.00$</span>
+            <div class="menu-item_ingredients">
+              Poivrons, oignons rouges, olives noires, champignons, sauce tomate
+              et fromage.
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="menu-category">
+        <h2 class="menu-category_title">DESSERTS</h2>
+
+        <div class="menu-category_list">
+          <div class="menu-item">
+            <span class="menu-item_title">Gelato Italien</span>
+            <span class="menu-item_price">6.50$</span>
+            <div class="menu-item_ingredients">
+              Trois flaveurs au choix : Vanille, Chocolat ou Fraise.
+            </div>
+          </div>
+          <br />
+
+          <div class="menu-item">
+            <span class="menu-item_title">Tiramisu Maison </span>
+            <span class="menu-item_price">8.00$</span>
+            <div class="menu-item_ingredients">
+              Biscuits de café, crème à la vanille et chocolat.
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="menu-category">
+        <h2 class="menu-category_title">BOISSONS</h2>
+
+        <div class="menu-category_list">
+          <div class="menu-item">
+            <span class="menu-item_title">Soda Pop</span>
+            <span class="menu-item_price">2.50$</span>
+            <div class="menu-item_ingredients">
+              Choix entre CocaCola, Pepsi, Crush, Sprite et Canada Dry.
+            </div>
+          </div>
+          <br />
+
+          <div class="menu-item">
+            <span class="menu-item_title">Eau</span>
+            <span class="menu-item_price">2.50$</span>
+            <div class="menu-item_ingredients">
+              Bouteille d'eau ou SmartWater
+            </div>
+          </div>
+          <br />
+
+          <div class="menu-item">
+            <span class="menu-item_title">Café</span>
+            <span class="menu-item_price">3.00$</span>
+            <div class="menu-item_ingredients">Espresso.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
